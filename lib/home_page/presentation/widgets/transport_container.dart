@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:svg_flutter/svg.dart';
+import 'package:flutter_svg/svg.dart';
 
-import '../../../core/utils/colors.dart';
+import '../pages/profile.dart';
+import 'colors.dart';
 
 class TransportContainer extends StatelessWidget {
   const TransportContainer({super.key, required this.svg});

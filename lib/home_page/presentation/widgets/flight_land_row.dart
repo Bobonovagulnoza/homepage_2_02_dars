@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:svg_flutter/svg.dart';
-import 'package:treval_app/homepage/presentation/widgets/flight_calendar_container.dart';
+import 'package:flutter_svg/svg.dart';
+import 'flight_calendar_container.dart';
 
 class FlightLandRow extends StatelessWidget {
   const FlightLandRow({

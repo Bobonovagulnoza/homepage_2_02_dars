@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:treval_app/core/utils/colors.dart';
+import '../pages/profile.dart';
+import 'colors.dart';
 
 class TariflarContainer extends StatelessWidget {
   const TariflarContainer({super.key, required this.text});

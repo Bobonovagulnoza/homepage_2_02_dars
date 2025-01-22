@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:svg_flutter/svg.dart';
-import 'package:treval_app/core/utils/colors.dart';
+
+import '../pages/profile.dart';
+import 'colors.dart';
 
 class EditData extends StatelessWidget {
   const EditData({super.key});

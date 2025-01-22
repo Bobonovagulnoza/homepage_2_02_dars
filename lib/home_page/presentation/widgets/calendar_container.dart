@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:svg_flutter/svg.dart';
-import 'package:treval_app/core/utils/colors.dart';
+import 'package:flutter_svg/svg.dart';
+
+import '../pages/profile.dart';
+import 'colors.dart';
 
 class CalendarContainer extends StatelessWidget {
   const CalendarContainer({

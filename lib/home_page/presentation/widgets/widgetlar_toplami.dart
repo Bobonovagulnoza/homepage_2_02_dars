@@ -1,7 +1,8 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
-import 'package:treval_app/core/utils/colors.dart';
+
+import '../pages/profile.dart';
+import 'colors.dart';
 
 class WidgetlarToplami extends StatelessWidget {
   const WidgetlarToplami({super.key, required this.image, required this.text});

@@ -1,7 +1,9 @@
+import 'package:ever_travel_project/home_page/presentation/widgets/shoshiling_item.dart';
 import 'package:flutter/material.dart';
-import 'package:treval_app/core/utils/colors.dart';
-import 'package:treval_app/homepage/presentation/widgets/discount_container.dart';
-import 'package:treval_app/homepage/presentation/widgets/shoshiling_item.dart';
+
+import '../pages/profile.dart';
+import 'colors.dart';
+import 'discount_container.dart';
 
 class MainContainer extends StatelessWidget {
   const MainContainer({super.key});
@@ -15,7 +17,7 @@ class MainContainer extends StatelessWidget {
         gradient: LinearGradient(
           colors: [
             AppColor.shoshilingcontainer1,
-            AppColor.shoshilingcontainer2,
+            AppColor.shoshilingcontainer1,
           ],
           begin: Alignment.centerLeft,
           end: Alignment.centerRight,
@@ -40,13 +42,13 @@ class MainContainer extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               children: [
                 DiscountContainer(
-                    makka_photo: "assets/images/offers/offers_1.png"),
+                    makka_photo: "assets/images/offers/offers_1.jpg", makkaPhoto: '',),
                 SizedBox(width: 10,),
                 DiscountContainer(
-                    makka_photo: "assets/images/offers/offers_1.png"),
+                    makka_photo: "assets/images/offers/offers_1.jpg", makkaPhoto: '',),
                 SizedBox(width: 10,),
                 DiscountContainer(
-                    makka_photo: "assets/images/offers/offers_1.png"),
+                    makka_photo: "assets/images/offers/offers_1.jpg", makkaPhoto: '',),
               ],
             ),
           ),

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:svg_flutter/svg.dart';
-import 'package:treval_app/core/utils/colors.dart';
 
+import '../pages/profile.dart';
+import 'colors.dart';
 import 'navigation_bar.dart';
 
 class Wallet extends StatelessWidget {
@@ -16,7 +17,7 @@ class Wallet extends StatelessWidget {
           onPressed: () {
             context.go("/");
           },
-          icon: SvgPicture.asset("assets/icons/back-arrow.svg"),
+          icon: SvgPicture.asset("assets/icons/down-arrow.svg"),
         ),
       ),
       body: Center(
@@ -26,7 +27,7 @@ class Wallet extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Image(
-                image: AssetImage("assets/images/offers/wallets.png"),
+                image: AssetImage("assets/images/offers/offers_6.jpg"),
                 width: 100,
                 height: 80,
               ),

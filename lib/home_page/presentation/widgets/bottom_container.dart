@@ -1,16 +1,17 @@
+import 'package:ever_travel_project/home_page/presentation/widgets/siz_plus.dart';
+import 'package:ever_travel_project/home_page/presentation/widgets/sugurta_chipta_etc.dart';
+import 'package:ever_travel_project/home_page/presentation/widgets/texts_main.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:treval_app/core/utils/colors.dart';
-import 'package:treval_app/homepage/presentation/widgets/afzallik_container.dart';
-import 'package:treval_app/homepage/presentation/widgets/calendar_container.dart';
-import 'package:treval_app/homepage/presentation/widgets/chegirmalar_container_two.dart';
-import 'package:treval_app/homepage/presentation/widgets/flight_calendar_container.dart';
-import 'package:treval_app/homepage/presentation/widgets/flight_land_row.dart';
-import 'package:treval_app/homepage/presentation/widgets/heart_container.dart';
-import 'package:treval_app/homepage/presentation/widgets/siz_plus.dart';
-import 'package:treval_app/homepage/presentation/widgets/sugurta_chipta_etc.dart';
-import 'package:treval_app/homepage/presentation/widgets/texts_main.dart';
-import 'package:treval_app/sevimlilar/presentation/widgets/chegirmalar_container.dart';
+import '../pages/profile.dart';
+import 'afzal_container.dart';
+import 'calendar_container.dart';
+import 'chegirmalar2.dart';
+import 'colors.dart';
+import 'flight_calendar_container.dart';
+import 'flight_land_row.dart';
+import 'heart_container.dart';
+
 
 class BottomContainer extends StatelessWidget {
   const BottomContainer({
@@ -82,7 +83,7 @@ class BottomContainer extends StatelessWidget {
             child: Row(
               children: [
                 CalendarContainer(
-                    svg: "assets/icons/newcalendar.svg",
+                    svg: "assets/icons/flight.svg",
                     text: "10",
                     text1: "KUN",
                     text2: "Madinada"),
@@ -90,7 +91,7 @@ class BottomContainer extends StatelessWidget {
                   width: 10,
                 ),
                 CalendarContainer(
-                    svg: "assets/icons/newcalendar.svg",
+                    svg: "assets/icons/flight.svg",
                     text: "5",
                     text1: "KUN",
                     text2: "Makkada"),
@@ -115,21 +116,21 @@ class BottomContainer extends StatelessWidget {
               child: Row(
                 children: [
                   Sugurta_and_chipta(
-                      svg: 'assets/icons/transport.svg',
+                      svg: 'assets/icons/down-arrow.svg',
                       text: "Sug'urta",
                       widths: 68),
                   SizedBox(
                     width: 3,
                   ),
                   Sugurta_and_chipta(
-                      svg: 'assets/icons/transport.svg',
+                      svg: 'assets/icons/down-arrow.svg',
                       text: "Chipta",
                       widths: 68),
                   SizedBox(
                     width: 3,
                   ),
                   Sugurta_and_chipta(
-                      svg: 'assets/icons/transport.svg',
+                      svg: 'assets/icons/down-arrow.svg',
                       text: "Viza",
                       widths: 48),
                   SizedBox(
@@ -155,7 +156,7 @@ class BottomContainer extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
-                 AfzallikContainer(title: "Ekonom", text: "1200\$", text1: "1300\$", afzallik: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit, iste unde voluptatem tempore vero eveniet quia conseq ...yana "),
+                  AfzallikContainer(title: "Ekonom", text: "1200\$", text1: "1300\$", afzallik: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit, iste unde voluptatem tempore vero eveniet quia conseq ...yana "),
                   SizedBox(
                     width: 8,
                   ),
@@ -191,3 +192,4 @@ class BottomContainer extends StatelessWidget {
     );
   }
 }
+

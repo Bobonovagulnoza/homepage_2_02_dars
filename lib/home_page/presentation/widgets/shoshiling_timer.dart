@@ -1,6 +1,5 @@
+import 'package:ever_travel_project/home_page/presentation/widgets/time_container.dart';
 import 'package:flutter/material.dart';
-import 'package:treval_app/homepage/presentation/widgets/time_container.dart';
-
 import 'ikki_nuqta_text.dart';
 
 

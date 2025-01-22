@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:treval_app/core/utils/colors.dart';
+
+import '../pages/profile.dart';
+import 'colors.dart';
 
 class SizPlus extends StatelessWidget {
   const SizPlus({super.key, required this.boyi, required this.eni});

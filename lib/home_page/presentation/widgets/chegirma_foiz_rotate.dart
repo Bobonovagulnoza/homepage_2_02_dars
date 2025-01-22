@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:treval_app/core/utils/colors.dart';
 import 'dart:math' as math;
+
+import '../pages/profile.dart';
+import 'colors.dart';
 
 class ChegirmaFoizRotate extends StatelessWidget {
   const ChegirmaFoizRotate({super.key});

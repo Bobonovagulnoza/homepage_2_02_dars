@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:svg_flutter/svg.dart';
-import 'package:treval_app/core/utils/colors.dart';
 
+import '../pages/profile.dart';
+import 'colors.dart';
 import 'navigation_bar.dart';
 
 class Cards extends StatelessWidget {
@@ -26,7 +27,7 @@ class Cards extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Image(
-                image: AssetImage("assets/images/offers/credit_card.png"),
+                image: AssetImage("assets/images/offers/offers_2.jpg"),
                 width: 100,
                 height: 80,
               ),

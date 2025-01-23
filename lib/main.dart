@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'home_page/presentation/widgets/main_body_items.dart';
 import 'onboarding/welcome_page_view.dart';
 
 void main(){
@@ -13,11 +14,32 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnboardingView (),
-      // home: MainBodyItems(),
+      // home: OnboardingView (),
+      home: MainBodyItems(),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // import 'package:flutter/material.dart';

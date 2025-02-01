@@ -4,7 +4,13 @@ import '../widgets/input_field_widget.dart';
 import '../widgets/dropdown_widget.dart';
 import '../widgets/save_button_widget.dart';
 
-class MalumotlarniKiritishPage extends StatelessWidget {
+class MalumotlarniKiritishPage extends StatefulWidget {
+  @override
+  State<MalumotlarniKiritishPage> createState() => _MalumotlarniKiritishPageState();
+}
+
+class _MalumotlarniKiritishPageState extends State<MalumotlarniKiritishPage> {
+
 @override
 Widget build(BuildContext context) {
   return Scaffold(
@@ -23,7 +29,7 @@ Widget build(BuildContext context) {
           InputFieldWidget(labelText: "Familiyangiz"),
           SizedBox(height: 10),
           InputFieldWidget(
-            labelText: "+998 77 777-07-77",
+            labelText: "+998 77 777-77-77",
             keyboardType: TextInputType.phone,
           ),
           SizedBox(height: 10),
